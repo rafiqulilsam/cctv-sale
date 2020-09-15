@@ -1,0 +1,154 @@
+
+body{
+	width:1170px;
+	
+	box-sizing:border-box
+}
+.col-1{width: 8.33%}
+.col-2{width: 16.66%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
+.col-9{width: 75%} 
+.col-10{width: 83.33%}
+.col-11{width: 91.66%}
+.col-12{width: 100%}
+
+[class*='col-']{
+	border:1px solid black;
+	float:left;
+	box-sizing:border-box;     
+}
+.row:after{
+	content:'';
+	clear:both;
+	display:block;
+}
+.top-height{height:30px}
+.header-height{height:300px}
+.menu-height{height:50px}
+.content-height{height:400px}
+.footer-height{height:50px}
+.section-height{height:300px;background:green;}
+.news-height{
+	height:40px;
+	background:green;
+	font-size:30px;
+}
+
+news-height
+.log-image{
+	width:100%;
+	height:200px;
+
+}
+.bangner-imnage{
+	width:100%;
+	height:300px;
+	
+}
+.nav-top ul{
+	margin:0;
+	padding:0;
+
+
+}
+.nav-top li{
+	float:left;
+	list-style-type:none;
+	width:145px;
+	border:3px solid balck;
+	
+}
+.nav-top ul li a{
+
+	display:block;
+	height:50px;
+	text-align:center;
+	line-height:2em;
+	text-decoration:none;
+	background-color:green;
+	color:white;
+    margin-right:1px;
+	font-size:17px;
+	
+}
+
+ul{
+	margin:0;
+	padding:0;
+
+
+}
+li{
+	float:left;
+	list-style-type:none;
+	width:145px;
+	border:1px solid balck;
+
+	
+}
+ul li a{
+
+	display:block;
+	height:50px;
+	text-align:center;
+	line-height:1.5em;
+	text-decoration:none;
+	background-color:brown;
+	color:white;
+    margin-right:3px;
+	font-size:22px;
+	
+}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  
+  
+.topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+.l-image{
+	height:100px;
+	weight:100%;
+}
+
+.line{
+	height:2px;
+	background:red;
+}
+
+.inner-content{
+	width:100%;
+	height:100%;
+}
+.inner-content p{
+	text-align:justify;
+	float:left;
+}
+.inner-content img{
+	width:170px;
+	 float:left;
+
+}
